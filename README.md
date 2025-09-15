@@ -1,10 +1,12 @@
 ---
-title: Logic Patch
-emoji: 🏃
-colorFrom: red
-colorTo: indigo
+title: logic-patch
+emoji: 🐳
+colorFrom: blue
+colorTo: green
 sdk: static
 pinned: false
+tags:
+  - deepsite
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference

@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+this is the whole code of my existing site just copy and duplicate the whole code: <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logic Patch | Software & Setup Specialist</title>
+    <title>Logic Patch - Computer & Phone Services</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -26,7 +26,7 @@
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
                     <i data-feather="tool" class="text-blue-600"></i>
-                    <span class="font-bold text-xl text-blue-600">Logic Patch</span>
+                    <span class="font-bold text-xl text-blue-600">TechFix Pro</span>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
@@ -50,26 +50,15 @@
         </div>
     </nav>
 
-    <!-- Trust Banner -->
-    <div class="bg-blue-800 text-white py-3 text-center">
-        <div class="flex items-center justify-center">
-            <i data-feather="check-circle" class="mr-2"></i>
-            <p class="font-medium">7-Day Labor Guarantee | Skilled & Reliable | Fixed Pricing</p>
-        </div>
-    </div>
-
     <!-- Hero Section -->
     <section class="gradient-bg text-white py-20">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
-                    <h1 class="text-4xl md:text-5xl font-bold mb-2">Software & Setup Specialist</h1>
-                    <p class="text-sm text-blue-100 mb-4">Specializing in software fixes and setup services. We do not perform hardware repairs on phone screens or internal laptop components.</p>
-                    <p class="text-xl mb-8">Fast, reliable fixes for your phone, computer, and Wi-Fi. Get back to what matters.</p>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Expert Device Repair & Maintenance</h1>
+                    <p class="text-xl mb-8">Professional computer and phone services with guaranteed quality. Your devices deserve the best care.</p>
                     <div class="flex space-x-4">
-                        <a href="https://www.facebook.com/logicpatch" target="_blank" class="bg-blue-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-600 transition flex items-center">
-                            <i data-feather="message-circle" class="mr-2"></i>  📱 Message for Help
-                        </a>
+                        <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">Book Now</a>
                         <a href="#services" class="border-2 border-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-blue-600 transition">Our Services</a>
                     </div>
                 </div>
@@ -85,14 +74,14 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="text-center mb-16" data-aos="fade-up">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Services</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Comprehensive solutions for all your device and digital needs</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Comprehensive solutions for all your device needs</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Phone Services -->
-                <div id="phone-services" class="bg-gray-50 rounded-xl p-6 service-card transition duration-300" data-aos="fade-up">
+                <div class="bg-gray-50 rounded-xl p-6 service-card transition duration-300" data-aos="fade-up">
                     <div class="relative h-48 mb-6 rounded-lg overflow-hidden">
-                        <img src="http://static.photos/technology/640x360/1?phone" alt="Smartphone being repaired" class="w-full h-full object-cover">
+                        <img src="http://static.photos/technology/640x360/1" alt="Phone Services" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-blue-600 opacity-20"></div>
                     </div>
                     <div class="flex items-center mb-4">
@@ -113,10 +102,7 @@
                             <i data-feather="check" class="text-green-500 mr-2 mt-1"></i>
                             <div>
                                 <span class="font-medium">Complete Phone Care</span>
-                                <div class="flex items-center">
-                                    <span class="bg-green-500 text-white text-xs font-bold px-2 py-1 rounded mr-2">BEST VALUE</span>
-                                    <p class="text-gray-600 text-sm">₱600 - Backup + reset + restore</p>
-                                </div>
+                                <p class="text-gray-600 text-sm">₱600 - Backup + reset + restore</p>
                             </div>
                         </li>
                         <li class="flex items-start">
@@ -126,20 +112,13 @@
                                 <p class="text-gray-600 text-sm">₱150 - Setup any mobile app</p>
                             </div>
                         </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-green-500 mr-2 mt-1"></i>
-                            <div>
-                                <span class="font-medium">Account Setup</span>
-                                <p class="text-gray-600 text-sm">₱200 - E-wallet & digital accounts</p>
-                            </div>
-                        </li>
                     </ul>
                 </div>
 
                 <!-- Computer Services -->
-                <div id="computer-services" class="bg-gray-50 rounded-xl p-6 service-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-gray-50 rounded-xl p-6 service-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-48 mb-6 rounded-lg overflow-hidden">
-                        <img src="http://static.photos/workspace/640x360/1?computer" alt="Laptop repair service" class="w-full h-full object-cover">
+                        <img src="http://static.photos/workspace/640x360/1" alt="Computer Services" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-blue-600 opacity-20"></div>
                     </div>
                     <div class="flex items-center mb-4">
@@ -170,20 +149,13 @@
                                 <p class="text-gray-600 text-sm">₱400 - Secure file transfer</p>
                             </div>
                         </li>
-                        <li class="flex items-start">
-                            <i data-feather="check" class="text-green-500 mr-2 mt-1"></i>
-                            <div>
-                                <span class="font-medium">Software Installation</span>
-                                <p class="text-gray-600 text-sm">₱250 - 1-5 applications</p>
-                            </div>
-                        </li>
                     </ul>
                 </div>
 
                 <!-- Network Services -->
                 <div class="bg-gray-50 rounded-xl p-6 service-card transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-48 mb-6 rounded-lg overflow-hidden">
-                        <img src="http://static.photos/technology/640x360/2?router" alt="WiFi router setup" class="w-full h-full object-cover">
+                        <img src="http://static.photos/technology/640x360/2" alt="Network Services" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-blue-600 opacity-20"></div>
                     </div>
                     <div class="flex items-center mb-4">
@@ -275,44 +247,19 @@
                                 <span>Driver Fix</span>
                                 <span class="font-medium">₱300</span>
                             </li>
-                            <li class="flex justify-between">
-                                <span>Software Installation</span>
-                                <span class="font-medium">₱250</span>
-                            </li>
-                            <li class="flex justify-between">
-                                <span>Game Installation</span>
-                                <span class="font-medium">₱200</span>
-                            </li>
-                            <li class="flex justify-between">
-                                <span>Media Download</span>
-                                <span class="font-medium">₱300</span>
-                            </li>
                         </ul>
                         <a href="#contact" class="block w-full gradient-bg text-white text-center py-3 rounded-lg font-medium hover:opacity-90 transition">Book Service</a>
                     </div>
                 </div>
 
-                <!-- Design & Web Services Card -->
-                <div id="design-web" class="bg-white rounded-xl shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                <!-- Hardware Services Card -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden" data-aos="fade-up" data-aos-delay="200">
                     <div class="gradient-bg text-white p-6">
-                        <h3 class="text-xl font-semibold mb-2">Design & Web Services</h3>
-                        <p class="opacity-90">Professional digital solutions</p>
+                        <h3 class="text-xl font-semibold mb-2">Hardware Services</h3>
+                        <p class="opacity-90">Physical upgrades and installations</p>
                     </div>
                     <div class="p-6">
                         <ul class="space-y-4 mb-6">
-                            <li class="flex justify-between">
-                                <span>PowerPoint Design</span>
-                                <span class="font-medium">₱300-₱500</span>
-                            </li>
-                            <li class="flex justify-between">
-                                <span>Word Formatting</span>
-                                <span class="font-medium">₱200</span>
-                            </li>
-                            <li class="flex justify-between">
-                                <span>Custom Website</span>
-                                <span class="font-medium">Starts at ₱1,500*</span>
-                                <p class="text-xs text-gray-500 mt-1">*Price may vary based on complexity</p>
-                            </li>
                             <li class="flex justify-between">
                                 <span>SSD/HDD Installation</span>
                                 <span class="font-medium">₱700</span>
@@ -346,7 +293,7 @@
                 </div>
                 <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
                     <h2 class="text-3xl font-bold text-gray-800 mb-6">About Our Services</h2>
-                    <p class="text-gray-600 mb-6">With years of experience in device repair, maintenance, and digital services, we provide professional solutions that prioritize quality and customer satisfaction.</p>
+                    <p class="text-gray-600 mb-6">With years of experience in device repair and maintenance, we provide professional services that prioritize quality and customer satisfaction.</p>
                     
                     <div class="mb-6">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Our Guarantee</h3>
@@ -388,58 +335,32 @@
                 <div class="md:w-1/2 mb-10 md:mb-0 md:pr-8" data-aos="fade-right">
                     <div class="bg-white p-8 rounded-xl shadow-md">
                         <h3 class="text-xl font-semibold text-gray-800 mb-6">Send Us a Message</h3>
-                        <form action="https://formsubmit.co/techfixsoftware@gmail.com" method="POST" class="space-y-4">
-                            <div class="bg-blue-50 p-4 rounded-lg mb-4">
-                                <p class="text-blue-800 font-medium">Service is provided on a first-come, first-served basis. Please be patient while we give each client our full attention.</p>
-                            </div>
-                            <input type="hidden" name="_subject" value="New Service Inquiry">
-                            <input type="hidden" name="_template" value="table">
-                            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                        <form>
                             <div class="mb-4">
                                 <label for="name" class="block text-gray-700 mb-2">Your Name</label>
-                                <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                             </div>
                             <div class="mb-4">
                                 <label for="email" class="block text-gray-700 mb-2">Email Address</label>
-                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                             </div>
                             <div class="mb-4">
                                 <label for="service" class="block text-gray-700 mb-2">Service Needed</label>
-                                <select id="service" name="service" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                                     <option value="">Select a service</option>
                                     <option value="phone_reset">Phone Reset</option>
                                     <option value="phone_care">Complete Phone Care</option>
                                     <option value="windows_install">Windows Installation</option>
                                     <option value="pc_tuneup">PC Tune-Up</option>
                                     <option value="router_setup">Router Setup</option>
-                                    <option value="website">Custom Website</option>
-                                    <option value="design">Presentation Design</option>
                                     <option value="other">Other Service</option>
                                 </select>
                             </div>
                             <div class="mb-6">
                                 <label for="message" class="block text-gray-700 mb-2">Message</label>
-                                <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
                             </div>
-                            <div class="bg-gray-50 p-4 rounded-lg border border-gray-200 max-h-40 overflow-y-auto mb-4">
-                                <h4 class="font-bold text-gray-800 mb-2">Service Agreement Terms:</h4>
-                                <ul class="text-sm space-y-2">
-                                    <li>· By requesting service, I agree to the fixed pricing and understand that service is first-come, first-served.</li>
-                                    <li>· I understand the "No Data, No Pay" policy. I have backed up my data and will not hold Logic Patch liable for any data loss.</li>
-                                    <li>· I understand the service is for software/setup only and does not include hardware repair.</li>
-                                    <li>· For hardware upgrades (SSD/RAM), I must provide the parts. Logic Patch is only responsible for the labor of installation.</li>
-                                    <li>· I authorize Logic Patch to perform the stated services.</li>
-                                    <li>· I understand that Logic Patch will provide an official receipt for this transaction as required by the BIR.</li>
-                                </ul>
-                            </div>
-
-                            <div class="flex items-start">
-                                <input type="checkbox" id="agreement" name="agreement" required class="mt-1 mr-2">
-                                <label for="agreement" class="text-sm text-gray-700">✅ I have read and agree to the Service Agreement terms above.</label>
-                            </div>
-
-                            <button type="submit" class="w-full gradient-bg text-white py-3 rounded-lg font-medium hover:opacity-90 transition">📞 Book Your Service</button>
-                            <input type="hidden" name="_captcha" value="false">
+                            <button type="submit" class="w-full gradient-bg text-white py-3 rounded-lg font-medium hover:opacity-90 transition">Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -466,22 +387,9 @@
                                     <p class="text-gray-600">Sunday: Closed</p>
                                 </div>
                             </div>
-                            <div class="flex items-start">
-                                <div class="bg-blue-100 p-3 rounded-full mr-4">
-                                    <i data-feather="link" class="text-blue-600"></i>
-                                </div>
-                                <div>
-                                    <h4 class="font-medium text-gray-800">Social Media</h4>
-                                    <p class="text-gray-600">
-                                        <a href="https://www.facebook.com/logicpatch" target="_blank" class="hover:text-blue-600">Facebook</a> | 
-                                        <a href="https://x.com/marckellinfo" target="_blank" class="hover:text-blue-600">Twitter/X</a> | 
-                                        <a href="https://linktr.ee/marckellinfo" target="_blank" class="hover:text-blue-600">All Links</a>
-                                    </p>
-                                </div>
-                            </div>
                         </div>
 
-                        <div id="service-policy" class="mt-10 bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                        <div class="mt-10 bg-yellow-50 p-6 rounded-lg border border-yellow-200">
                             <h4 class="text-xl font-bold text-gray-800 mb-6 text-center">SERVICE RULES & REGULATIONS</h4>
                             <ul class="space-y-4 text-base">
                                 <li class="flex items-start">
@@ -504,10 +412,6 @@
                                     <i data-feather="alert-circle" class="text-yellow-500 mr-3 mt-1 text-xl"></i>
                                     <span class="font-medium">For Software/Games: The customer must own a legal license or account for any paid software or games. We only provide installation assistance.</span>
                                 </li>
-                                <li class="flex items-start">
-                                    <i data-feather="alert-circle" class="text-yellow-500 mr-3 mt-1 text-xl"></i>
-                                    <span class="font-medium">For Website Creation: The price is a project fee. Once the final site is delivered and approved, the fee is non-refundable.</span>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -523,17 +427,17 @@
                 <div class="mb-8 md:mb-0">
                     <div class="flex items-center mb-4">
                         <i data-feather="tool" class="text-blue-400 mr-2"></i>
-                        <span class="font-bold text-xl">Logic Patch</span>
+                        <span class="font-bold text-xl">TechFix Pro</span>
                     </div>
-                    <p class="text-gray-400 max-w-xs">Professional computer, phone, and web services with guaranteed quality.</p>
+                    <p class="text-gray-400 max-w-xs">Professional computer and phone repair services with guaranteed quality.</p>
                 </div>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
                     <div>
                         <h4 class="text-lg font-semibold mb-4">Services</h4>
                         <ul class="space-y-2">
-                            <li><a href="#phone-services" class="text-gray-400 hover:text-white transition">Phone Services</a></li>
-                            <li><a href="#computer-services" class="text-gray-400 hover:text-white transition">Computer Services</a></li>
-                            <li><a href="#design-web" class="text-gray-400 hover:text-white transition">Design & Web</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Phone Services</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Computer Services</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Network Services</a></li>
                         </ul>
                     </div>
                     <div>
@@ -541,25 +445,22 @@
                         <ul class="space-y-2">
                             <li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
                             <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
-                            <li><a href="#service-policy" class="text-gray-400 hover:text-white transition">Service Policy</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Service Policy</a></li>
                         </ul>
                     </div>
                     <div>
                         <h4 class="text-lg font-semibold mb-4">Connect</h4>
                         <div class="flex space-x-4">
                             <a href="https://linktr.ee/marckellinfo" class="text-gray-400 hover:text-white transition" target="_blank" rel="noopener noreferrer"><i data-feather="link"></i></a>
-                            <a href="https://www.facebook.com/logicpatch" class="text-gray-400 hover:text-white transition" target="_blank"><i data-feather="facebook"></i></a>
-                            <a href="https://github.com/kaydennitrate" class="text-gray-400 hover:text-white transition" target="_blank"><i data-feather="github"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
-                <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4">
-                    <p>&copy; 2024 Logic Patch. All rights reserved.</p>
-                    <a href="legal.html" class="text-gray-400 hover:text-white">Legal & Privacy</a>
-                    <p>Follow for tech tips & updates</p>
-                </div>
+                <p>&copy; 2023 Logic Patch Pro. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -589,3 +490,223 @@
     </script>
 </body>
 </html>
+but also this is my services I've added new services so just also edit and add it in there with my contacts in there also: Of course. Here is the complete, updated list of your services with the new additions integrated. I have added a new section for your design and web services, updated the pricing for website creation as you requested, and added your social media links.
+
+You can copy and paste this entire text into your new Hugging Face Space.
+
+---
+
+🛠️ Computer & Phone Services
+
+Note on Pricing: My rates are a reflection of my expertise and the quality of service I provide. My prices are fixed and non-negotiable. They reflect the value of my skilled work. If you are looking for the cheapest option, I may not be the right technician for you.
+
+---
+
+📱 Phone Services
+
+1. Basic Phone Reset
+   · Price: ₱200
+   · Description: A full factory reset to make your phone fast again. Please back up your own data first, as everything will be erased.
+2. Complete Phone Care Package (BEST VALUE)
+   · Price: ₱600
+   · Description: We back up your photos, contacts, and messages, perform a full reset, and restore your data. Your phone will be faster and your memories are safe.
+3. App Installation & Setup (Mobile)
+   · Price: ₱150
+   · Description: Help to download, install, and set up any app on your phone (e.g., social media, banking apps, etc.).
+4. Digital Account Setup Assistance
+   · Price: ₱200
+   · Description: Help to create and verify your e-wallet accounts (GCash, Maya, etc.) and teach you the basics.
+
+---
+
+💻 Laptop & Desktop Services
+
+1. Windows OS Installation
+   · Price: ₱700
+   · Description: A clean installation of Windows with all necessary drivers and basic software setup.
+2. Linux OS Installation (For Old Laptops)
+   · Price: ₱800
+   · Description: Install a free, fast, and easy-to-use OS to bring your old laptop back to life. Includes a basic tutorial.
+3. PC Speed-Up Tune-Up
+   · Price: ₱400
+   · Description: Clean junk files, remove bloatware, optimize startup programs, and update drivers for a faster computer.
+4. Driver Fix Service
+   · Price: ₱300
+   · Description: Fix issues with Wi-Fi, sound, Bluetooth, or printers not working.
+5. Software Installation Package (1-5 Apps)
+   · Price: ₱250
+   · Description: Download, install, and set up essential desktop software (e.g., Microsoft Office, browsers, Zoom, antivirus, etc.). Customer must provide their own legal license or account for paid software.
+6. Game Installation Package (10-20 Games)
+   · Price: ₱200
+   · Description: Bulk installation and setup of PC games. Customer must provide their own game files or legal accounts (Steam, Epic Games, etc.).
+7. Movie/Media Download Assistance
+   · Price: ₱300
+   · Description: Help you safely download movies or large media files for offline viewing. Service is for assistance and guidance only.
+8. Data Backup & Transfer
+   · Price: ₱400
+   · Description: Safely move all your files, photos, and documents from an old computer or hard drive to a new one.
+9. SSD / HDD Installation (LABOR FEE ONLY)
+   · Price: ₱700
+   · Description: Labor only. I will physically install the new SSD or hard drive that you provide into your laptop/computer.
+10. RAM Installation (LABOR FEE ONLY)
+    · Price: ₱300
+    · Description: Labor only. I will install the new RAM memory that you provide into your computer.
+
+---
+
+🌐 Wi-Fi & Network Services
+
+1. Router Initial Setup & Configuration
+   · Price: ₱500
+   · Description: Set up and configure a new router for your home internet. This includes setting the Wi-Fi name (SSID) and password.
+2. Wi-Fi Range Extender Setup
+   · Price: ₱600
+   · Description: Configure and set up your existing Wi-Fi extender or additional router to boost your wireless signal coverage in your home. Customer must provide the extender/router and Ethernet cables.
+
+---
+
+🎨 Design & Office Services
+
+1. Microsoft PowerPoint Presentation Design
+   · Price: ₱300 - ₱500
+   · Description: I will transform your ideas into a professional, modern, and engaging PowerPoint presentation. This includes layout design, adding animations, and ensuring a cohesive look.
+2. Microsoft Word Document Formatting
+   · Price: ₱200
+   · Description: Help to format your resumes, reports, letters, or other documents to look clean, professional, and easy to read.
+3. Custom Website Creation
+   · Price: Starts at ₱1,500
+   · Description: I will create a simple, clean, and professional one-page website for your business or personal use, perfect for showcasing your services online. The final price may vary based on the complexity of the site, the amount of content, and the time required.
+
+---
+
+🎁 FREEBIES (Included with every service!)
+
+· Free Basic Physical Cleaning (Wiping down your device, cleaning ports).
+·Free Basic Advice on how to take care of your device.
+
+---
+
+📝 RULES & REGULATIONS
+
+· 7-Day Labor Guarantee: If the same problem occurs due to our work within 7 days, we will fix it for free.
+·No Data, No Pay: Please back up your data before any service. We are not liable for any data loss.
+·Service fees are non-refundable after successful completion.
+·For Hardware/Network Services: The customer must provide all necessary parts (SSD, RAM, Router, Cables, etc.). We only charge for the labor of installation and configuration.
+·For Software/Games: The customer must own a legal license or account for any paid software or games. We only provide installation assistance.
+·For Website Creation: The price is a project fee. Once the final site is delivered and approved, the fee is non-refundable.
+
+---
+
+📞 Contact & Follow
+
+Facebook Page: https://www.facebook.com/logicpatch
+Twitter/X:https://x.com/marckellinfo
+All Links:https://linktr.ee/marckellinfo
+Gmail: techfixsoftware@gmail.com
+Message us for inquiries and bookings!
+make the button belows that says: "Services
+Phone Services
+Computer Services
+Design & Web
+Company
+About Us
+Contact
+Service Policy" when you click those button it will direct to what it means like for example the About Us will direct into About Us section and the Phone Services will direct also into the Phone Services Section
+also about the services if the Cellphone is about Phone Services, make the picture showing it's a Phone do it also in other services so the customer can see what it is about, do it on computer services, router, and other services in there
+change the picture in those services, I told you to put the picture in each services that shows what service it is, if it's a Phone Services then change the picture that shows above it is a Phone Services not a man that holds a laptop the Network Services Picture is already fine don't change it.
+the Contact Us and Bookings, each contact, bookings and email should be directedly sent into my email which is: techfixsoftware@gmail.com
+1. Add a hero section at the top with this headline: 'Professional Software Fixes & Setup Services', this subheading: 'We solve your phone, computer, and Wi-Fi problems fast.', and a bright button that says 'Message Us to Get Started' linking to Facebook.
+2. Add a trust banner near the top that says '7-Day Labor Guarantee on All Services | Fast & Reliable | Expert Technicians'.
+3. Add a 'BEST VALUE' badge to the 'Complete Phone Care Package' service.
+"Improve the website to be professionally compliant, trustworthy, and legally clear. Implement all of the following changes:
+
+1. Hero Section at the top:
+
+· Headline: Software & Setup Specialist
+· Sub-headline: Fast, reliable fixes for your phone, computer, and Wi-Fi. Get back to what matters.
+· Button: Add a prominent button that says 📱 Message for Help and link it to the Facebook page.
+
+2. Trust Badge under the hero:
+
+· Use a checkmark icon.
+· Text: 7-Day Labor Guarantee | Skilled & Reliable | Fixed Pricing
+
+3. Honest Disclaimer:
+
+· Add this line clearly under the main title: "Specializing in software fixes and setup services. We do not perform hardware repairs on phone screens or internal laptop components."
+
+4. Highlight the Best Value Package:
+
+· Add a 🔥 BEST VALUE badge to the 'Complete Phone Care Package' service.
+
+5. Booking Policy Notice:
+
+· Add a clear note: "Service is provided on a first-come, first-served basis. Please be patient while we give each client our full attention."
+
+6. Create a 'Service Request Form' section with a mandatory agreement checkbox:
+
+· Title: 📞 Book Your Service
+· Text: Send us a message to check availability and get a quote. Please include the device model and a description of the problem.
+· Add a checkbox with this exact text next to it:
+  ✅ I have read and agree to the Service Agreement terms below.
+· Below the checkbox, add the Service Agreement text in a scrollable box:
+  Service Agreement Terms:
+  · By requesting service, I agree to the fixed pricing and understand that service is first-come, first-served.
+  · I understand the "No Data, No Pay" policy. I have backed up my data and will not hold Logic Patch liable for any data loss.
+  · I understand the service is for software/setup only and does not include hardware repair.
+  · For hardware upgrades (SSD/RAM), I must provide the parts. Logic Patch is only responsible for the labor of installation.
+  · I authorize Logic Patch to perform the stated services.
+  · I understand that Logic Patch will provide an official receipt for this transaction as required by the BIR.
+
+7. Add a 'Legal & Privacy' section to the footer.
+
+· Make it a text link that says: Legal & Privacy
+· Link it to a new page with the following content:
+  **Service Disclaimer:** Logic Patch provides software setup and troubleshooting services. While we exercise due care, we cannot guarantee a fix for every issue and are not liable for pre-existing conditions or hardware failures. Our liability is limited to the cost of the service rendered.
+  **Privacy Notice:** We collect only the information you provide (name, contact details, device info) solely to deliver our services. We do not sell your data. By using our service, you consent to this collection.
+  **BIR Compliance:** As a professional service provider, Logic Patch operates in compliance with Philippine tax regulations. Official receipts will be provided for all services upon request.
+
+8. Update the Footer:
+
+· Remove the Twitter/X icon and link completely.
+· Keep the Facebook icon and link.
+· Add a GitHub icon and link it to this URL: https://github.com/kaydennitrate
+· Change the copyright text to: © 2024 Logic Patch. All rights reserved.
+· Keep the text: Follow for tech tips & updates.
+
+9. Ensure the 'Website Creation' service price says: "Price: Starts at ₱1,500" and mentions the price may vary based on complexity."
+"Add a 'Legal & Privacy' section to the footer. Make it a text link that says: Legal & Privacy. Link it to a new page with the following content:
+
+Service Disclaimer: Logic Patch provides software setup and troubleshooting services. While we exercise due care, we cannot guarantee a fix for every issue and are not liable for pre-existing conditions or hardware failures. Our liability is limited to the cost of the service rendered.
+
+Privacy Notice: We collect only the information you provide (name, contact details, device info) solely to deliver our services. We do not sell your data. By using our service, you consent to this collection.
+
+Note: Logic Patch is currently operating as a freelance service."
+Add a new section to the website for tips and donations.
+
+1. Create a new section titled:
+
+· Header: ☕ Support My Work / Leave a Tip
+· Description: If my service was helpful and you'd like to show extra appreciation, you can leave a tip here. It helps me continue providing great support! Thank you!
+
+2. Add the following donation options:
+
+· For GCash: Add a header that says 💳 GCash and upload the GCash QR code image. Underneath, add the text Scan the QR code or send to [Your GCash Number].
+· For Maya: Add a header that says 💳 Maya and upload the Maya QR code image. Underneath, add the text Scan the QR code to send a tip..
+
+3. Add a section for Crypto Tips:
+
+· Header: ₿ Crypto Tips (Optional & Appreciated)
+· Description: Prefer to tip with crypto? You can use any of the addresses below. Thank you for your support!
+· Add these specific networks and addresses:
+  · EVM Network (ETH, USDT, USDC, etc.): [Your New EVM Address]
+  · Solana Network (SOL, USDC): [Your New Solana Address]
+  · TON Network: [Your New TON Address]
+· Add a note: `For your privacy, these are new addresses not linked to my main wallets."
+
+Place this new section near the footer of the website, before the final contact information. MY WALLETS: TON WALLET ADDRESS: UQD8RmP7C9CDUGuJRuVO1IP7xqpUPR0tFCu5n5rvwGaSM6yt TRX WALLET ADDRESS: TNr37pZ3gbc9SKsGFRWSdZwLLw1vXZpCon EVM ADDRESS LIKE ETH, BNB, OP, LINEA ETC.: 0x667756929203c71f66cb33e9e69649f3c7feeae1 MY SOLANA WALLET ADDRESS: 549m2zaHWppZ56jD9LuqhM4jy9vYVsp7NGVtwFyJsvG7 links of the qr code also for the PAYMAYA AND GCASH https://ibb.co/zhZSrZvL
+https://ibb.co/pBMkvs8D
+https://ibb.co/fzNXh3fM
+https://ibb.co/XfdZ66BS
+https://ibb.co/VWSrYs3W
+https://ibb.co/5XRHygqK

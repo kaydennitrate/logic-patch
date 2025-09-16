@@ -1,25 +1,55 @@
-body {
-	padding: 2rem;
-	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
-	box-sizing: border-box; /* Add this */
-	margin: 0; /* Add this */
-	overflow-x: hidden; /* Keep this */
-}
-
-*, *::before, *::after {
-	box-sizing: inherit; /* Add this to prevent overflow from padding */
-}
-
-.card {
-	max-width: 100%; /* Change from 620px */
-	width: 620px; /* Optional, for larger screens */
-	margin: 0 auto;
-	padding: 16px;
-	border: 1px solid lightgray;
-	border-radius: 16px;
-}
-/* Force all elements to fit inside viewport */
-* {
-  max-width: 100%;
+/* Global Reset and Box Sizing */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  max-width: 100%; /* Prevent any element from exceeding viewport */
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+  overflow-x: hidden; /* Hide horizontal scroll */
+}
+
+/* Headings */
+h1 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+/* Paragraphs */
+p {
+  color: rgb(107, 114, 128);
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Card Styling */
+.card {
+  max-width: 100%; /* Make sure card fits viewport on small screens */
+  width: 620px;    /* Default width for larger screens */
+  margin: 0 auto;  /* Center card */
+  padding: 16px;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+/* Optional: Responsive tweak for very small screens */
+@media (max-width: 640px) {
+  body {
+    padding: 1rem;
+  }
+  
+  .card {
+    width: 100%;
+    padding: 12px;
+  }
 }

@@ -1,60 +1,111 @@
-/* Global Reset and Box Sizing */
+/* ==========================
+   Global Reset and Box Sizing
+========================== */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  max-width: 100%; /* Prevent any element from exceeding viewport */
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    max-width: 100%; /* Prevent elements from exceeding viewport */
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
-  padding: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
-  overflow-x: hidden; /* Hide horizontal scroll */
+    padding: 2rem;
+    font-family: 'Inter', sans-serif; /* Modern clean font */
+    overflow-x: hidden; /* Hide horizontal scroll */
+    background-color: #f9fafb; /* light neutral background */
 }
 
-/* Headings */
+/* ==========================
+   Headings
+========================== */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600; /* semi-bold headings */
+    margin-top: 0;
+    color: #1f2937; /* dark gray for headings */
+}
+
 h1 {
-  font-size: 16px;
-  margin-top: 0;
+    font-size: 24px;
 }
 
-/* Paragraphs */
-p {
-  color: rgb(107, 114, 128);
-  font-size: 15px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+/* ==========================
+   Paragraphs
+========================== */
+p, span, li {
+    color: #6b7280; /* medium gray */
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.6;
 }
 
-/* Card Styling */
+/* ==========================
+   Card Styling
+========================== */
 .card {
-  max-width: 100%; /* Make sure card fits viewport on small screens */
-  width: 620px;    /* Default width for larger screens */
-  margin: 0 auto;  /* Center card */
-  padding: 16px;
-  border: 1px solid lightgray;
-  border-radius: 16px;
+    max-width: 100%; /* Fit viewport on small screens */
+    width: 620px;    /* Default width for larger screens */
+    margin: 1rem auto;  /* Center card */
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .card p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
-/* Optional: Responsive tweak for very small screens */
-@media (max-width: 640px) {
-  body {
-    padding: 1rem;
-  }
-  
-  .card {
-    width: 100%;
-    padding: 12px;
-  }
-}
+/* ==========================
+   Buttons & Links
+========================== */
 button, a {
-  padding: 12px 20px; /* bigger tap area */
-  font-size: 16px;
-  border-radius: 8px; /* smooth rounded corners */
+    padding: 12px 20px; /* bigger tap area */
+    font-size: 16px;
+    border-radius: 8px; /* smooth rounded corners */
+    transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, a:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* ==========================
+   Optional: Responsive tweak for small screens
+========================== */
+@media (max-width: 640px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .card {
+        width: 100%;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p, span, li {
+        font-size: 15px;
+    }
+
+    button, a {
+        width: 100%; /* full width buttons on small screens */
+        text-align: center;
+        padding: 14px 0;
+    }
 }

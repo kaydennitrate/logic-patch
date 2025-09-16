@@ -26,3 +26,8 @@ p {
 .card p:last-child {
 	margin-bottom: 0;
 }
+
+/* Fix extra horizontal space */
+html, body {
+  overflow-x: hidden;
+}

@@ -5,36 +5,41 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    max-width: 100%; /* Prevent elements from exceeding viewport */
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
 
 html, body {
     padding: 2rem;
-    font-family: 'Inter', sans-serif; /* Modern clean font */
-    overflow-x: hidden; /* Hide horizontal scroll */
-    background-color: #f9fafb; /* light neutral background */
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    background-color: #f9fafb;
 }
 
 /* ==========================
    Headings
 ========================== */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600; /* semi-bold headings */
+    font-weight: 600;
     margin-top: 0;
-    color: #1f2937; /* dark gray for headings */
+    color: #1f2937;
 }
 
 h1 {
     font-size: 24px;
 }
 
+h2 {
+    font-size: 22px;
+    margin: 1rem 0;
+}
+
 /* ==========================
    Paragraphs
 ========================== */
 p, span, li {
-    color: #6b7280; /* medium gray */
+    color: #6b7280;
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -45,9 +50,9 @@ p, span, li {
    Card Styling
 ========================== */
 .card {
-    max-width: 100%; /* Fit viewport on small screens */
-    width: 620px;    /* Default width for larger screens */
-    margin: 1rem auto;  /* Center card */
+    max-width: 100%;
+    width: 620px;
+    margin: 1rem auto;
     padding: 16px;
     border: 1px solid lightgray;
     border-radius: 16px;
@@ -56,22 +61,28 @@ p, span, li {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
-
-.card p:last-child {
-    margin-bottom: 0;
 }
 
 /* ==========================
    Buttons & Links
 ========================== */
 button, a {
-    padding: 12px 20px; /* bigger tap area */
+    padding: 12px 20px;
     font-size: 16px;
-    border-radius: 8px; /* smooth rounded corners */
+    border-radius: 8px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
     text-decoration: none;
     display: inline-block;
@@ -83,7 +94,25 @@ button:hover, a:hover {
 }
 
 /* ==========================
-   Optional: Responsive tweak for small screens
+   Forms
+========================== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* ==========================
+   Responsive
 ========================== */
 @media (max-width: 640px) {
     body {
@@ -104,7 +133,7 @@ button:hover, a:hover {
     }
 
     button, a {
-        width: 100%; /* full width buttons on small screens */
+        width: 100%;
         text-align: center;
         padding: 14px 0;
     }

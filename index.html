@@ -1,208 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Logic Patch - Professional Computer, Phone, and Web Services</title>
-  <meta name="description" content="Logic Patch offers professional computer, phone, and web services with guaranteed quality.">
-  <link href="style.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/feather-icons"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logic Patch - Professional Tech Services</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 text-gray-900">
-
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container flex justify-between items-center">
-      <div class="flex items-center space-x-2">
-        <i data-feather="tool" class="icon-blue"></i>
-        <span class="logo">Logic Patch</span>
-      </div>
-      <div class="hidden md:flex space-x-8">
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
-      <div class="md:hidden">
-        <button id="menu-btn" class="menu-btn" aria-label="Toggle mobile menu">
-          <i data-feather="menu"></i>
-        </button>
-      </div>
-    </div>
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="mobile-menu hidden">
-      <a href="#services" class="mobile-link">Services</a>
-      <a href="#about" class="mobile-link">About</a>
-      <a href="#contact" class="mobile-link">Contact</a>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container text-center">
-      <h1 class="hero-title" data-aos="fade-up">Expert Computer, Phone & Web Solutions</h1>
-      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-        Reliable services to keep your technology running smoothly. From device repairs to professional websites—we’ve got you covered.
-      </p>
-      <a href="#contact" class="btn-primary" data-aos="fade-up" data-aos-delay="400">Get in Touch</a>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="section bg-gray-100">
+<body>
+  <!-- Header -->
+  <header class="header fade-in">
     <div class="container">
-      <h2 class="section-title" data-aos="fade-up">Our Services</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="card" data-aos="fade-up">
-          <i data-feather="smartphone" class="icon-blue mb-4"></i>
-          <h3 class="card-title">Phone Services</h3>
-          <p class="card-text">Screen replacements, battery fixes, and full phone diagnostics to keep you connected.</p>
-          <p class="price">Starting at ₱1,000</p>
+      <h1 class="logo">Logic Patch</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="legal.html">Service Policy</a></li>
+          <li><a href="#support">Support / Tips</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero fade-in">
+    <div class="container">
+      <h2>Professional Computer, Phone, and Web Services</h2>
+      <p>Guaranteed quality, transparent pricing, and client-first approach.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="service-grid">
+
+        <div class="service-card slide-up">
+          <img src="images/phone.jpg" alt="Phone Service">
+          <h3>Phone Services</h3>
+          <p>Repair, software reinstallation, unlocking, and optimization.</p>
+          <p class="price">₱500 - ₱2,500</p>
         </div>
-        <div class="card" data-aos="fade-up" data-aos-delay="200">
-          <i data-feather="monitor" class="icon-blue mb-4"></i>
-          <h3 class="card-title">Computer Services</h3>
-          <p class="card-text">Comprehensive laptop and desktop repair, upgrades, and optimization services.</p>
-          <p class="price">Starting at ₱1,500</p>
+
+        <div class="service-card slide-up">
+          <img src="images/computer.jpg" alt="Computer Service">
+          <h3>Computer Services</h3>
+          <p>OS installation, virus removal, SSD/RAM upgrades, optimization.</p>
+          <p class="price">₱800 - ₱3,500</p>
         </div>
-        <div class="card" data-aos="fade-up" data-aos-delay="400">
-          <i data-feather="globe" class="icon-blue mb-4"></i>
-          <h3 class="card-title">Design & Web</h3>
-          <p class="card-text">Professional web design, SEO, and online presence setup tailored to your needs.</p>
-          <p class="price">Custom pricing available</p>
+
+        <div class="service-card slide-up">
+          <img src="images/web.jpg" alt="Web Service">
+          <h3>Design & Web</h3>
+          <p>Website creation, PowerPoint design, Word formatting.</p>
+          <p class="price">Starts at ₱2,000</p>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="container grid md:grid-cols-2 gap-12 items-center">
-      <div data-aos="fade-right">
-        <img src="http://static.photos/technology/1024x576/1" alt="Tech Services" class="rounded-lg shadow-xl w-full h-auto object-cover" loading="lazy">
-      </div>
-      <div data-aos="fade-left">
-        <h2 class="section-title">About Logic Patch</h2>
-        <p class="text-gray-600 mb-4">
-          We are a passionate team dedicated to delivering top-notch services for individuals and businesses. With years of expertise in technology, we ensure quality and satisfaction in every project.
-        </p>
-        <p class="text-gray-600">
-          Whether it’s fixing your device, building your website, or providing tech guidance, Logic Patch is your reliable partner.
-        </p>
-      </div>
+  <!-- Our Guarantee -->
+  <section class="guarantee section fade-in">
+    <div class="container">
+      <h2>Our Guarantee</h2>
+      <ul>
+        <li>No Data, No Pay policy</li>
+        <li>Official receipt provided (BIR compliant)</li>
+        <li>Transparent fixed pricing</li>
+        <li>Service is first-come, first-served</li>
+      </ul>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section contact">
-    <div class="container text-center">
-      <h2 class="section-title" data-aos="fade-up">Get in Touch</h2>
-      <p class="mb-8" data-aos="fade-up" data-aos-delay="200">
-        Ready to book a service or have questions? Get in touch!
-      </p>
+  <!-- Support / Tips -->
+  <section id="support" class="support section fade-in">
+    <div class="container">
+      <h2>Support & Tips</h2>
+      <p>Regular updates on how to maintain your devices and optimize performance.</p>
+    </div>
+  </section>
 
-      <form action="https://formsubmit.co/techfixsoftware@gmail.com" method="POST" class="contact-form" data-aos="fade-up" data-aos-delay="400">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Email Address" required>
+  <!-- Contact -->
+  <section id="contact" class="contact section fade-in">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Ready to book a service or have questions? Get in touch!</p>
+
+      <form action="https://formspree.io/f/mwpezgno" method="POST" class="contact-form">
+        <label>Your Name</label>
+        <input type="text" name="name" required>
+
+        <label>Email Address</label>
+        <input type="email" name="email" required>
+
+        <label>Service Needed</label>
         <select name="service" required>
-          <option value="">Select a service</option>
           <option>Phone Services</option>
           <option>Computer Services</option>
           <option>Design & Web</option>
         </select>
-        <textarea name="message" placeholder="Your Message" required></textarea>
 
-        <div class="agreement text-left">
-          <h4>Service Agreement Terms:</h4>
-          <ul>
-            <li>By requesting service, I agree to the fixed pricing and understand that service is first-come, first-served.</li>
-            <li>I understand the "No Data, No Pay" policy. I have backed up my data and will not hold Logic Patch liable for any data loss.</li>
-            <li>The service is for software/setup only and does not include hardware repair.</li>
-            <li>For hardware upgrades (SSD/RAM), I must provide the parts. Logic Patch is only responsible for the labor of installation.</li>
-            <li>I authorize Logic Patch to perform the stated services.</li>
-            <li>Logic Patch will provide an official receipt for this transaction as required by the BIR.</li>
-          </ul>
-        </div>
+        <label>Message</label>
+        <textarea name="message" required></textarea>
 
-        <label class="checkbox">
-          <input type="checkbox" required> ✅ I have read and agree to the Service Agreement terms above.
+        <p class="terms">
+          Service Agreement Terms:<br>
+          · By requesting service, I agree to the fixed pricing and understand that service is first-come, first-served.<br>
+          · I understand the "No Data, No Pay" policy.<br>
+          · Logic Patch is not liable for any data loss.<br>
+          · Hardware upgrades (SSD/RAM) must be provided by the client.<br>
+          · An official receipt will be provided.<br>
+        </p>
+
+        <label>
+          <input type="checkbox" required>
+          ✅ I have read and agree to the Service Agreement terms above.
         </label>
 
-        <button type="submit" class="btn-primary">📞 Book Your Service</button>
-        <p class="location">📍 Services available in Aguilar, Pangasinan, Philippines.<br>🌍 Online-only services available worldwide.</p>
+        <button type="submit" class="btn">📞 Book Your Service</button>
       </form>
+
+      <p class="location">
+        📍 Services are mainly available in Aguilar, Pangasinan, Philippines.<br>
+        🌍 Online services available worldwide.
+      </p>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container flex flex-col md:flex-row justify-between">
-      <div class="mb-8 md:mb-0">
-        <div class="flex items-center mb-4">
-          <i data-feather="tool" class="icon-blue mr-2"></i>
-          <span class="font-bold text-xl">Logic Patch</span>
-        </div>
-        <p class="text-gray-400 max-w-xs">Professional computer, phone, and web services with guaranteed quality.</p>
-      </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
-        <div>
-          <h4 class="footer-title">Services</h4>
-          <ul class="footer-list">
-            <li><a href="#services">Phone Services</a></li>
-            <li><a href="#services">Computer Services</a></li>
-            <li><a href="#services">Design & Web</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="footer-title">Company</h4>
-          <ul class="footer-list">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="legal.html">Service Policy</a></li>
-            <li><a href="tips.html">Support / Tips</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="footer-title">Connect</h4>
-          <div class="flex space-x-4">
-            <a href="https://linktr.ee/marckellinfo" target="_blank"><i data-feather="link"></i></a>
-            <a href="https://www.facebook.com/logicpatch" target="_blank"><i data-feather="facebook"></i></a>
-            <a href="https://github.com/kaydennitrate" target="_blank"><i data-feather="github"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024 Logic Patch. All rights reserved.</p>
-      <a href="legal.html">Legal & Privacy</a>
-      <p>Follow for tech tips & updates</p>
+  <footer class="footer fade-in">
+    <div class="container">
+      <p>&copy; 2025 Logic Patch. All rights reserved.</p>
     </div>
   </footer>
-
-  <!-- Scripts -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    // Mobile menu toggle
-    document.getElementById('menu-btn').addEventListener('click', function() {
-      document.getElementById('mobile-menu').classList.toggle('hidden');
-    });
-
-    // Close mobile menu when clicking a link
-    document.querySelectorAll('#mobile-menu a').forEach(link => {
-      link.addEventListener('click', function() {
-        document.getElementById('mobile-menu').classList.add('hidden');
-      });
-    });
-
-    // Initialize AOS and Feather Icons
-    document.addEventListener('DOMContentLoaded', function() {
-      AOS.init({
-        duration: 800,
-        easing: 'ease-in-out',
-        once: true
-      });
-      feather.replace();
-    });
-  </script>
 </body>
 </html>

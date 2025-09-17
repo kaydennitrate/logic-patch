@@ -101,3 +101,34 @@ footer a:hover {
   transform: scale(1.2);
   color: #ffffff;
 }
+
+/* Scroll reveal base */
+.reveal, .reveal-left, .reveal-right {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
+
+/* From bottom */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* From left */
+.reveal-left {
+  transform: translateX(-50px);
+}
+.reveal-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* From right */
+.reveal-right {
+  transform: translateX(50px);
+}
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}

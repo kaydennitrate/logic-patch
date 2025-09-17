@@ -1,0 +1,103 @@
+/* smooth.css — enhances animations without touching structure */
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global fade-in animation when scrolled into view */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Alternate reveal directions */
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.reveal-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Buttons hover */
+button, .btn, a.bg-white, a.bg-blue-600 {
+  transition: all 0.3s ease-in-out;
+}
+button:hover, .btn:hover, a.bg-white:hover, a.bg-blue-600:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Card hover */
+.bg-white.shadow, .bg-white.p-6, .rounded-lg {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bg-white.shadow:hover, .bg-white.p-6:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+/* Navbar smooth hover underline */
+nav a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Image smooth zoom */
+img {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Contact form fields */
+input, textarea, select {
+  transition: all 0.3s ease;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #2563eb; /* Tailwind blue-600 */
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+  outline: none;
+}
+
+/* Footer icons hover */
+footer a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+footer a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
